@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Beratung und Informationen für Ihre berufliche Zukunft in Deutschland</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+</head>
+<body>
+    <!----------header Section Nav/Logo/Main-Background/H1/Main Botton---------->
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRu9L5qzAUZY2Ghg42F26EIxeIr-QOJV4F4zXf_fotXwxD3MjY4J5bNSNzdpE9ml1pjY6TlBQj8viMt_RJ_fIV_3CGhMoLv9XMxgllibMeU7PTe-U979Occk3ipH0t784_-eGXDT3uOyxKqfJbiVrvHUDRV8YGlSmXaBUkFT-b1vE_vJLtdkIb19USnh-B/s272/logo.png"></a>
+             <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">Heim</a></li>
+                    <li><a href="about.html">über mich</a></li>
+                    <li><a href="sprachkurs.html">Sprachkurs</a></li>
+                    <li><a href="blog.html">Arbeit</a></li>
+                    <li><a href="contact.html">Liebenslauf</a></li>
+                </ul>
+            </div>
+              <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1 style="margin: 0%; padding-bottom: 75px;">Uber mich</h1>
+        </div>
+    </section>
+
+    <!------------------------------ About Me Section------------------------------>
+
+    <section class="about-me">
+        <div class="about-col">
+            <h1>We are the world largest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa perspiciatis blanditiis vel tempora sunt impedit odit minus maiores officia, autem aliquam molestias tenetur vero ullam deleniti necessitatibus nam eaque. Est!</p>
+            <a href="" class="hero-btn red-btn">Enroll NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWMlKniFaBtYyJ2IPUNeZYReRBHiwTWspEwnHrXimHtNNtgjSWoTuWmxBwYUnRaFLE92sdt-_qxYlwl02Z6wwLLcY79tcbCCiZ5h5oS9SI8D0Gg7rLhRIBYoyMvqI2II7gSu9pE4OveXiUAvIyhSMAZ9yWvUk5FR3qR4bZkZp_9MwVgNJyMggR7decMyE_/s1280/about.jpg">
+        </div>
+
+    </section>
+
+
+        <!---------------------footer-------------------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Nobis magni tempora totam debitis, blanditiis necessitatibus perspiciatis? 
+            Qui, aspernatur? Ex iste sint eveniet ea deleniti necessitatibus <br> 
+            delectus ipsam at dolores! Libero?</p>
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-youtube"></i>
+            <i class="bi bi-tiktok"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+       <p> made with <i class="bi bi-chat-heart-fill"></i> by Anass Elbasri </p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0px";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    
+   
+</body>
+
+</html>
