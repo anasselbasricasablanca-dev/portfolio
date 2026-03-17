@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioKSP9qVh1vUOk0Yy5AMCj-LXCMab_XrowzOz8tnAz2b_NwyovkELydNo1IZfk0Focbkb8vDK2_cHNK2rYAe__GolSe2dpCDf3xrNlSMVK009ls2tnQOPl7n52NMEC203WJaj0XhLoR22Orq9xJK2NGTs5vaLKMXtuUdGqP1m-BPS_uRfmTOVuKJdsA8Wx/s4096/banner24.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7), #09001d),url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioKSP9qVh1vUOk0Yy5AMCj-LXCMab_XrowzOz8tnAz2b_NwyovkELydNo1IZfk0Focbkb8vDK2_cHNK2rYAe__GolSe2dpCDf3xrNlSMVK009ls2tnQOPl7n52NMEC203WJaj0XhLoR22Orq9xJK2NGTs5vaLKMXtuUdGqP1m-BPS_uRfmTOVuKJdsA8Wx/s4096/banner24.png);
     background-position: center;
     background-size: cover;
     position: relative;
