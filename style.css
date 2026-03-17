@@ -183,6 +183,10 @@ p {
     text-align: left;
 }
 
+.course-col p {
+    text-align: left;
+}
+
 h3 {
     text-align: center;
     font-weight: 600;
